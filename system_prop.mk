@@ -5,7 +5,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapsize=512m
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=440
+    ro.sf.lcd_density=448
 
 # Display feature support
 # bit0-ColorPrefer bit1-EyeCare bit2-AD bit3-CE bit4-CABC bit5-SRGB
