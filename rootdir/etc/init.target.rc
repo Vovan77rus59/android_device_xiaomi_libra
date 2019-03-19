@@ -114,7 +114,7 @@ on boot
 
 on property:sys.boot_completed=1
     # Enable ZRAM on boot_complete
-    swapon_all /vendor/etc/fstab.qcom
+    # swapon_all /vendor/etc/fstab.qcom
 
     # Set BFQ I/O scheduler
     setprop sys.io.scheduler "cfq"
