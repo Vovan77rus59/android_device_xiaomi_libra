@@ -42,7 +42,7 @@ on fs
     symlink /dev/block/platform/soc.0/f9824900.sdhci /dev/block/bootdevice
 
     mount_all /vendor/etc/fstab.qcom
-
+    swapon_all /vendor/etc/fstab.qcom
     mkdir /persist/data 0700 system system
     mkdir /persist/wlan_bt 0700 system system
 
@@ -196,4 +196,3 @@ service fidodaemon /system/vendor/bin/fidodaemon
     class late_start
     user system
     group system
-
