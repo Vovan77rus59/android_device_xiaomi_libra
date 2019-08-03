@@ -22,10 +22,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR := xiaomi
 
-LINEAGE_BUILD_TYPE := WEEKLY
-
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="libra-user 7.0 NRD90M V10.1.1.0.NXKCNFI release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/libra/libra:7.0/NRD90M/V10.1.1.0.NXKCNFI:user/release-keys
+BUILD_FINGERPRINT := "Xiaomi/libra/libra:7.0/NRD90M/V10.1.1.0.NXKCNFI:user/release-keys"
